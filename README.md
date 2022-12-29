@@ -30,3 +30,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 1.  Install json server globally---  `npm install -g json-server`
 2.  Run json server -----  `json-server --watch db.json`
+
+## How to Run Project 
+
+1.  Install node moduels  ---- `npm install`
+2.  Run Json Server
+3.  Run angular App -- `ng serve --o` 
