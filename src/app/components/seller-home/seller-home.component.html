@@ -1,0 +1,30 @@
+<div>
+    <h1>Product List</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th>Product Name</th>
+                <th>Price</th>
+                <th>Color</th>
+                <th>Category</th>
+                <th>Description</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let i of productList">
+                <td><img src="{{i.image}}"/></td>
+                <td>{{i.name}}</td>
+                <td>{{i.price}}</td>
+                <td>{{i.color}}</td>
+                <td>{{i.category}}</td>
+                <td>{{i.description}}</td>
+                <td>
+                    <a routerLink="/seller-edit-product/{{i.id}}"><fa-icon [icon]="icon1" style="color: Ffbf00;" ></fa-icon></a>
+                    <fa-icon [icon]="icon" (click)="deleteProduct(i.id)" style="color: red; margin-left: 10px;" ></fa-icon>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

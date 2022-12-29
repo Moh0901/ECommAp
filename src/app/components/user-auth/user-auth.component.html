@@ -1,0 +1,26 @@
+
+<div class="container">
+    <div class="heading" *ngIf="!showLogin">
+        <h1>SignUp</h1>
+        <form class="form-group" #userSignUp="ngForm" (ngSubmit)="SignUp(userSignUp.value)">
+            <input type="text" class="form-input" ngModel name="name" placeholder="Enter Name"/>
+            <input type="text" class="form-input" ngModel name="email" placeholder="Enter E-mail"/>
+            <input type="password" class="form-input" ngModel name="password" placeholder="Enter Password"/>
+            <button class="form-button">Sign Up</button>
+            <span class="link">Already have an Account? <a (click)="onLogin()" class="text">Click here</a></span>
+        </form>
+    </div>
+</div>
+
+
+<div class="container" >
+    <div class="heading" *ngIf="showLogin">
+        <h1>Login</h1>
+        <form class="form-group" #userLogin="ngForm" (ngSubmit)="Login(userLogin.value)">
+            <input type="text" class="form-input" ngModel name="email" placeholder="Enter E-mail"/>
+            <input type="password" class="form-input" ngModel name="password" placeholder="Enter Password"/>
+            <button class="form-button">Login</button>
+            <span class="link">New User? <a (click)="onSign()" class="text">Click here</a></span>
+        </form>
+    </div>
+</div>

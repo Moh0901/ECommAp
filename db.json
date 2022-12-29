@@ -1,0 +1,113 @@
+{
+  "seller": [
+    {
+      "name": "abcd",
+      "email": "abcd@gmail.com",
+      "password": "abcdefgh",
+      "id": 1
+    },
+    {
+      "name": "abc",
+      "email": "abc@gmail.com",
+      "password": "abcefgh",
+      "id": 2
+    },
+    {
+      "name": "manan dawra",
+      "email": "mohitverma.540.mv@gmail.com",
+      "password": "qwerty",
+      "id": 3
+    },
+    {
+      "name": "gagan singh",
+      "email": "efgh@gmail,com",
+      "password": "asdfgh",
+      "id": 4
+    },
+    {
+      "name": "gjhgjh",
+      "email": "hjhg",
+      "password": "gjgg",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "name": "Mac Book Pro",
+      "price": "88999",
+      "color": "grey",
+      "category": "laptop",
+      "description": "An Apple Product",
+      "image": "https://th.bing.com/th/id/OIP.RkkaSpiZUTWcsziPOTh9HAHaHa?w=185&h=185&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "id": 1
+    },
+    {
+      "name": "Realme 5 pro",
+      "price": "13999",
+      "color": "Green",
+      "category": "Mobile",
+      "description": "A Realme Product",
+      "image": "https://th.bing.com/th?q=Real+Me+5+Pro+Price+8GB&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=1.5&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247",
+      "id": 2
+    },
+    {
+      "name": "Replica Rolex",
+      "price": "4999",
+      "color": "Black",
+      "category": "Watch ",
+      "description": "Rolex Product",
+      "image": "https://th.bing.com/th/id/OIP.Knvv7R6dciSTKydmUCHJEAHaJe?w=151&h=193&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "id": 3
+    },
+    {
+      "name": "Airdopes 433",
+      "price": "1199",
+      "color": "Black",
+      "category": "EarBuds",
+      "description": "boAt Airdopes 433 True Wireless Earbuds",
+      "image": "https://th.bing.com/th/id/OIP.ksjg_7H-YlOBGYy91YrATwHaHa?w=182&h=182&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "name": "mohit",
+      "email": "mohit@123",
+      "password": "sdvsvsd",
+      "id": 1
+    },
+    {
+      "name": "naman",
+      "email": "naman@3245",
+      "password": "sjfjss",
+      "id": 2
+    },
+    {
+      "name": "naman",
+      "email": "naman@3245",
+      "password": "wefwefe",
+      "id": 3
+    },
+    {
+      "name": "nikhil",
+      "email": "nik@32467",
+      "password": "kasjkas",
+      "id": 4
+    }
+  ],
+  "cart": [
+    {
+      "name": "Mac Book Pro",
+      "price": "88999",
+      "color": "grey",
+      "category": "laptop",
+      "description": "An Apple Product",
+      "image": "https://th.bing.com/th/id/OIP.RkkaSpiZUTWcsziPOTh9HAHaHa?w=185&h=185&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+      "quantity": 1,
+      "userId": 3,
+      "productId": 1,
+      "id": 2
+    }
+  ],
+  "orders": []
+}
